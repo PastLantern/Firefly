@@ -5,7 +5,8 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到我的博客！这是一则示例公告。",
+	// 语出《水浒传》鲁智深坐化前的偈子，原句为「忽地顿开金枷，这里扯断玉锁……今日方知我是我」
+	content: "脱去昔日旧枷锁，今日方知我是我。",
 
 	// 是否允许用户关闭公告
 	closable: true,
