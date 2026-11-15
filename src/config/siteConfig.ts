@@ -48,8 +48,8 @@ export const siteConfig: SiteConfig = {
 	subtitle: "记录技术与生活",
 
 	// 站点 URL
-	// TODO: 换成你的博客正式域名（RSS、OG 图、站点地图都依赖它）
-	site_url: "https://pastlantern.github.io",
+	// Cloudflare Pages 自定义域名（RSS、OG 图、站点地图、canonical 都依赖它）
+	site_url: "https://blog.15242001.xyz",
 
 	// 站点描述
 	description:
