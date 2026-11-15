@@ -27,8 +27,8 @@ const showTitle = widgetConfig?.showTitle !== false;
   style={style}
 >
   <div>
-    <!-- 公告栏内容 -->
-    <div class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-3">
+    <!-- 公告栏内容（whitespace-pre-line：让配置里的 \n 生效，方便写两行对联式文案） -->
+    <div class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-3 whitespace-pre-line">
       {config.content}
     </div>
 

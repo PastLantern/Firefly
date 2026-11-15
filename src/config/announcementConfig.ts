@@ -6,7 +6,8 @@ export const announcementConfig: AnnouncementConfig = {
 
 	// 公告内容
 	// 语出《水浒传》鲁智深坐化前的偈子，原句为「忽地顿开金枷，这里扯断玉锁……今日方知我是我」
-	content: "脱去昔日旧枷锁，今日方知我是我。",
+	// 用 \n 可以换行（组件已开启 whitespace-pre-line）
+	content: "脱去昔日旧枷锁，\n今日方知我是我。",
 
 	// 是否允许用户关闭公告
 	closable: true,
