@@ -109,6 +109,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					url: "mailto:mingzhou1001@outlook.com",
 				},
 				{
+					name: "Sponsor",
+					icon: "material-symbols:favorite",
+					url: "/sponsor/",
+				},
+				{
 					name: "RSS",
 					icon: "fa7-solid:rss",
 					url: "/rss/",
@@ -202,4 +207,5 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		},
 	},
 };
+
 
