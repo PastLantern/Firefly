@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -360,3 +360,4 @@ export const siteConfig: SiteConfig = {
 	// 页面开关配置，在本配置文件顶部pages定义
 	pages,
 };
+
